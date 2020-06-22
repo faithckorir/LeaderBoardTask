@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "633170490927",
+    "firebase_url": "https://leaderboardtask.firebaseio.com",
+    "project_id": "leaderboardtask",
+    "storage_bucket": "leaderboardtask.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:633170490927:android:34abb4458bd7d5e8fbf8da",
+        "android_client_info": {
+          "package_name": "com.finixtore.leaderboard"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "633170490927-17d6lisvu33n0287ikohi3g2838irtvu.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.finixtore.leaderboard",
+            "certificate_hash": "f86736f23058837277b9290860126be6745d509a"
+          }
+        },
+        {
+          "client_id": "633170490927-afpjpal875c0q25tpp8r0mag8cni3iu6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCJ4OdFWCC15VBfP0p4f-ip8eEM80fNYAc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "633170490927-afpjpal875c0q25tpp8r0mag8cni3iu6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
