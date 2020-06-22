@@ -3,12 +3,17 @@ package com.finixtore.leaderboard;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.avatarfirst.avatargenlib.AvatarConstants;
+import com.avatarfirst.avatargenlib.AvatarGenerator;
+
 import java.util.ArrayList;
+import java.util.List;
 
 public class ScoreboardAdapter extends  RecyclerView.Adapter<ScoreboardAdapter.ScoreBoardViewHolder>{
     ArrayList<Person> scores= new ArrayList<>();
@@ -29,6 +34,8 @@ public class ScoreboardAdapter extends  RecyclerView.Adapter<ScoreboardAdapter.S
 
 
 
+
+
     }
 
     @Override
@@ -39,11 +46,18 @@ public class ScoreboardAdapter extends  RecyclerView.Adapter<ScoreboardAdapter.S
     class ScoreBoardViewHolder extends RecyclerView.ViewHolder {
         TextView name;
         TextView score;
+        ImageView mImageView;
         public ScoreBoardViewHolder(@NonNull View itemView) {
             super(itemView);
+            mImageView=itemView.findViewById(R.id.imageView);
             name=itemView.findViewById(R.id.tv_names);
             score=itemView.findViewById(R.id.tv_points);
 
         }
+    }
+    public  void setNotes(ArrayList<Person> scores)
+    {
+        this.scores =scores;
+        notifyDataSetChanged();
     }
 }

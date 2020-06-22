@@ -6,6 +6,9 @@ public class Person {
         this.points = points;
     }
 
+    public Person() {
+    }
+
     public String getName() {
         return name;
     }
